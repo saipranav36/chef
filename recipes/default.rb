@@ -25,7 +25,7 @@ package 'mongodb' do
 	action :install
 end
 
-#include_recipe "mongodb::default"
+include_recipe "mongodb::default"
 
 package 'wordpress' do
 	action :install
